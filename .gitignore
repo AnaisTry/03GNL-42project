@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# MacOS Desktop Service Store finder files
+.DS_Store
+
 # Object files
 *.o
 *.ko
