@@ -1,4 +1,0 @@
-ifconfig | grep ether | cut -d ' ' -f 10-
-#ifconfig | grep ether | cut -d  2- 
-#ifconfig | grep ether | cut -d ' ' -f 2
-cut -d ' ' -f 2-5

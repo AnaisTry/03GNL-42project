@@ -1,8 +1,0 @@
-find .  -type f -name '*.sh' | cut -c 3- | cut -d '.' -f1 | grep -o "[^/*$"
-
-find . -name "*.sh" | xargs -I{} basename '{}' .sh
-
-find . -type f -exec file '{}' \;
-
-find . -name '*.sh' -printf "%f\n" 
-
